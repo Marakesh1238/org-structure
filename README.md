@@ -36,13 +36,16 @@
 ```bash
 git clone https://github.com/Marakesh1238/org-structure.git
 cd org-structure
+```
 
 ### Запуск проекта через Docker
 
+```bash
 docker-compose up --build
-
+```
 
 # После успешного запуска будут доступны:
+
 API: http://localhost:8000
 
 # Документация OpenAPI: http://localhost:8000/docs
@@ -57,12 +60,18 @@ API: http://localhost:8000
 
 ### Миграции:
 
+```bash
 - poetry run alembic upgrade head
+```
 
 ### Фикстуры для проекта
 
+```bash
 - poetry run python -m app.seed
+```
 
 ### Тесты
 
+```bash
 - poetry run pytest -v
+```
