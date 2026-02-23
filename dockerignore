@@ -19,6 +19,17 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+docker-compose*.yaml
+
+# Git
+.git
+.gitignore
+.gitattributes
+
 # IDE
 .vscode/
 .idea/
@@ -28,6 +39,19 @@ Thumbs.db
 # Логи
 logs/
 *.log
+
+# Тесты и документация
+tests/
+docs/
+*.md
+LICENSE
+
+# Poetry (временные файлы)
+poetry.toml
+
+# База данных (если есть)
+*.db
+*.sqlite3
 
 # Результаты сборки
 dist/
